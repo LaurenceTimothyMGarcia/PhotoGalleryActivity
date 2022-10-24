@@ -31,7 +31,7 @@ class PhotoGalleryFragment : Fragment() {
             this,
             Observer { responseString ->
                 Log.d(TAG, "Response received: $responseString")
-            })
+        })
     }
 
     override fun onCreateView(
